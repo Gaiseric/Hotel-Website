@@ -84,8 +84,9 @@ p {
     clear: both;
 }
 
-l-heading {
+.l-heading {
     font-size: 40px;
+    line-height: 1.2;
 }
 
 /* Padding */
@@ -142,10 +143,10 @@ l-heading {
 
 #showcase {
     background: url("../img/showcase.jpg") no-repeat center center/cover;
-    height: 100vh;
+    height: 95vh;
     display: flex;
     flex-direction: column;
-    justify-content: center; /*Центрирование по горизонтали*/
+    justify-content: center;
     align-items: center;
 }
 
@@ -167,7 +168,7 @@ l-heading {
 /* Home Info */
 
 #home-info {
-    height: 400px;
+    height: 450px;
 }
 
 #home-info .info-img {
@@ -186,7 +187,7 @@ l-heading {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: center; /*Центрирование по горизонтали*/
+    justify-content: center;
     align-items: center;
 }
 
@@ -231,7 +232,7 @@ l-heading {
 /* Testimonials */
 
 #testimonials {
-    height: 600px;
+    min-height: 100%;
     background: url("../img/test-bg.jpg") no-repeat center center/cover;
     padding-top: 100px;
 }
